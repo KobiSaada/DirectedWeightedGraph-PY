@@ -8,8 +8,11 @@
 
 
 # Geneal Info ::books:
-In this task we were required to implement a deliberate and weighted graph with all the algorithms similar to the previous task only in the Python programming language and in addition we were required to compare execution times between our results and the network x and java library and also implemented a graphical representation of the graph using maplotlib library in Python Have fun.
-<img width="639" alt="Screen Shot 2021-01-10 at 11 04 27" src="https://user-images.githubusercontent.com/73976733/104119179-7b7c1180-5336-11eb-8910-b16a2105519a.png">
+In this task we were required to implement a deliberate and weighted graph with all the algorithms similar to the previous task only in the Python programming language and in addition we were required to compare execution times between our results and the network x and java library and also implemented a graphical representation of the graph using maplotlib library in Python Have fun!.
+
+<img width="350" alt="Screen Shot 2021-01-10 at 11 04 27" src="https://user-images.githubusercontent.com/73976733/104119676-c3506800-5339-11eb-96db-c3ffd1548ff3.png"> <img width="350" alt="Screen Shot 2021-01-10 at 8 42 57" src="https://user-images.githubusercontent.com/73976733/104119692-d9f6bf00-5339-11eb-942d-5d8f2dfb01ce.png">
+
+
 
 
 
@@ -70,7 +73,8 @@ Clone that project to your workspace directory
 # Results Compare Times ::bar_chart::alarm_clock:
 <img width="1127" alt="Screen Shot 2021-01-10 at 9 13 43" src="https://user-images.githubusercontent.com/73976733/104119269-efb6b500-5336-11eb-8cfb-2ed1c49a4deb.png">
 
-
+# Authors :
+# KOBI SAADA & TAMIR KAlIAUH :v:
 
 
 
