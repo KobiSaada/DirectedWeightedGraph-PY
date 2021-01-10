@@ -75,8 +75,8 @@ Clone that project to your workspace directory
    # DiGraph :
    
    # GraphAlgo :
- *  **get_graph(self) **->return this graph
- *  **load_from_json(self,file:str) **-> Loads a graph from a json file.
+ *  **get_graph(self)**->return this graph
+ *  **load_from_json(self,file:str)**-> Loads a graph from a json file.
  *  **sava_to_json**-> save a graph to a json file.
  *  **plot_graph(self)**->  Plots the graph If the nodes have a position, the nodes will be placed there Otherwise, they will be placed in a random but elegant manner.
  *   **connected_components(self)**->  Finds all the Strongly Connected Component(SCC) in the graph.
