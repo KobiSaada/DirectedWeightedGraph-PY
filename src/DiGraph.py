@@ -162,18 +162,20 @@ class DiGraph(ABC, GraphInterface):
           Note: if the node id does not exists the function will do nothing
           """
 
-    def remove_node(self, node_id: int) -> bool:
+     def remove_node(self, node_id: int) -> bool:
         bool1 = False
         if node_id not in self.Graph_DW:
             return bool1
 
-        for node in self.Graph_DW[node_id].Ni_node_in.keys():
-            self.Graph_DW[node].Ni_node_out.pop(node_id)
-            self.edge_size -= 1
+        if len(self.get_vertex(node_id).Ni_node_in )> 0:
+            for node in self.Graph_DW[node_id].Ni_node_in.keys():
+                self.Graph_DW[node].Ni_node_out.pop(node_id)
+                self.edge_size -= 1
 
-        for node in self.Graph_DW[node_id].Ni_node_out.keys():
-            self.Graph_DW[node].Ni_node_in.pop(node_id)
-            self.edge_size -= 1
+        if len(self.get_vertex(node_id).Ni_node_out) > 0:
+            for node in self.Graph_DW[node_id].Ni_node_out.keys():
+                self.Graph_DW[node].Ni_node_in.pop(node_id)
+                self.edge_size -= 1
 
         self.Mc += 1
         self.num_vertices = self.num_vertices - 1
