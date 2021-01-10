@@ -93,7 +93,8 @@ Clone that project to your workspace directory
 
 
 # Results Compare Times ::bar_chart::hourglass:
-<img width="1127" alt="Screen Shot 2021-01-10 at 9 13 43" src="https://user-images.githubusercontent.com/73976733/104119269-efb6b500-5336-11eb-8cfb-2ed1c49a4deb.png">
+<img width="900" alt="Screen Shot 2021-01-11 at 0 49 08" src="https://user-images.githubusercontent.com/73976733/104137634-072d8680-53a7-11eb-860e-f5c6e803e971.png">
+
 
 # External Info : 
 * https://matplotlib.org/3.1.1/gallery/style_sheets/dark_background.html
