@@ -1,9 +1,10 @@
-# DirectedWeightedGraph-PY
+# DirectedWeightedGraph-PY ![python (1)](https://user-images.githubusercontent.com/73976733/104119424-d19d8480-5337-11eb-8a0d-fb8e26dab285.png)
+
 
 # welcome to EX3-Final Assigment in OOP in ariel university :tada:
 
 ![Webp net-compress-image (3)](https://user-images.githubusercontent.com/73976733/101813689-b9163080-3b25-11eb-9e93-5471b17b0e15.jpg)
-![python](https://user-images.githubusercontent.com/73976733/104119398-a31fa980-5337-11eb-8c0e-504ccd213709.png)
+
 
 
 # Geneal Info :
