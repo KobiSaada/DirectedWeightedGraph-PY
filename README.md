@@ -19,14 +19,13 @@ In this task we were required to implement a deliberate and weighted graph with 
 # Getting Started ::zap:
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-# Prerequisites:![images1](https://user-images.githubusercontent.com/73976733/104119486-440e6480-5338-11eb-9b19-efb559b320f3.jpeg) ![eclipse](https://user-images.githubusercontent.com/73976733/104119509-6ef8b880-5338-11eb-9f7e-ebb74c2821f3.png)
+# Prerequisites:!![22](https://user-images.githubusercontent.com/73976733/104122372-55ae3700-534d-11eb-8de4-492973fca972.jpeg)
+
 
 
 * JDK-15.0.1
 
-* Eclipse
-
-* IntelliJ
+* PyCharm
 
 * or some other IDE (recommended)
 
