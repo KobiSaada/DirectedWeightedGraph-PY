@@ -64,14 +64,13 @@ Clone that project to your workspace directory
    
    # Diagram PLTUML ::chart_with_downwards_trend:
    
-   <img width="684" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104119230-b8e09f00-5336-11eb-880d-bed1c8eb1f2f.png">
-<img width="643" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104119233-bd0cbc80-5336-11eb-9342-df865528d261.png">
-<img width="212" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104119236-be3de980-5336-11eb-9044-5b745a197dcb.png">
+   <img width="684" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104119230-b8e09f00-5336-11eb-880d-bed1c8eb1f2f.png"><img width="643" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104119233-bd0cbc80-5336-11eb-9342-df865528d261.png"><img width="212" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104119236-be3de980-5336-11eb-9044-5b745a197dcb.png">
+
 
 # Results Compare Times ::bar_chart::hourglass:
 <img width="1127" alt="Screen Shot 2021-01-10 at 9 13 43" src="https://user-images.githubusercontent.com/73976733/104119269-efb6b500-5336-11eb-8cfb-2ed1c49a4deb.png">
 
-# Engoy!
+# Engoy!:smile:
 # Authors :
 # KOBI SAADA & TAMIR KAlIAUH :v:
 
