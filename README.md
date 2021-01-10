@@ -8,6 +8,7 @@
 
 
 # General Info ::books:
+
 In this task we were required to implement a deliberate and weighted graph with all the algorithms similar to the previous task only in the Python programming language and in addition we were required to compare execution times between our results and the network x and java library and also implemented a graphical representation of the graph using maplotlib library in Python Have fun!.
 
 <img width="450" alt="Screen Shot 2021-01-10 at 22 26 44 (1)" src="https://user-images.githubusercontent.com/73976733/104136369-4905ff00-539e-11eb-87bf-a4af2e0b5976.png"> <img width="450" alt="Screen Shot 2021-01-10 at 23 44 45 (2) (1)" src="https://user-images.githubusercontent.com/73976733/104136411-92eee500-539e-11eb-9b7c-260ff63beb37.png">
@@ -34,6 +35,30 @@ Clone that project to your workspace directory
         git clone https://github.com/KobiSaada/DirectedWeightedGraph-PY
         
   Open your IDE and make sure you see the project 'DirectedWeightedGraph-PY'
+  
+ # Example of run test n check(0) ::pencil:
+
+ after you clone this project there is a class call Ex3 main run it in check(0):
+ 
+        g = DiGraph()  # creates an empty directed graph
+    for n in range(4):
+        g.add_node(n)
+    g.add_edge(0, 1, 1)
+    g.add_edge(1, 0, 1.1)
+
+    g.add_edge(1, 2, 1.3)
+    g.add_edge(2, 3, 1.1)
+    g.add_edge(1, 3, 1.9)
+    g.remove_edge(1, 3)
+    g.add_edge(1, 3, 10)
+    print(g)  # prints the __repr__ (func output)
+    print(g.get_all_v())  # prints a dict with all the graph's vertices.
+    print(g.all_in_edges_of_node(1))
+    print(g.all_out_edges_of_node(1))
+    g_algo = GraphAlgo(g)
+    print(g_algo.shortest_path(0, 3))
+    g_algo.plot_graph()
+ 
   
   
   # Data Stracture:
@@ -70,7 +95,7 @@ Clone that project to your workspace directory
 # Results Compare Times ::bar_chart::hourglass:
 <img width="1127" alt="Screen Shot 2021-01-10 at 9 13 43" src="https://user-images.githubusercontent.com/73976733/104119269-efb6b500-5336-11eb-8cfb-2ed1c49a4deb.png">
 
-# Engoy!:smile:
+# Enjoy!:smile:
 # Authors :
 # KOBI SAADA & TAMIR KAlIAUH :v:
 
