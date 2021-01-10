@@ -1,10 +1,10 @@
 # DirectedWeightedGraph-PY
 
-<img width="638" alt="Screen Shot 2021-01-10 at 3 04 44" src="https://user-images.githubusercontent.com/73976733/104119298-0e1cb080-5337-11eb-9b15-65ec6d9232e6.png">
-
-
 # welcome to EX3-Final Assigment in OOP in ariel university :tada:
-![python](https://user-images.githubusercontent.com/73976733/104117517-8df04e00-532a-11eb-8eee-e55a4adc4e28.png)![Webp net-compress-image (3)](https://user-images.githubusercontent.com/73976733/101813689-b9163080-3b25-11eb-9e93-5471b17b0e15.jpg)
+
+![Webp net-compress-image (3)](https://user-images.githubusercontent.com/73976733/101813689-b9163080-3b25-11eb-9e93-5471b17b0e15.jpg)
+![python](https://user-images.githubusercontent.com/73976733/104119398-a31fa980-5337-11eb-8c0e-504ccd213709.png)
+
 
 # Geneal Info :
 In this task we were required to implement a deliberate and weighted graph with all the algorithms similar to the previous task only in the Python programming language and in addition we were required to compare execution times between our results and the network x and java library and also implemented a graphical representation of the graph using maplotlib library in Python Have fun.
