@@ -96,7 +96,7 @@ Clone that project to your workspace directory
 <img width="900" alt="Screen Shot 2021-01-11 at 0 49 08" src="https://user-images.githubusercontent.com/73976733/104137634-072d8680-53a7-11eb-860e-f5c6e803e971.png">
 
 
-# External Info : 
+# External Info ::mag_right:
 * https://matplotlib.org/3.1.1/gallery/style_sheets/dark_background.html
 * https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 * https://en.wikipedia.org/wiki/Strongly_connected_component
