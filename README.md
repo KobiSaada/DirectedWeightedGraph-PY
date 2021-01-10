@@ -22,9 +22,9 @@ In this task we were required to implement a deliberate and weighted graph with 
 # Getting Started ::zap:
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-# Prerequisites:![22](https://user-images.githubusercontent.com/73976733/104122372-55ae3700-534d-11eb-8de4-492973fca972.jpeg)
+# Prerequisites: :bulb:
 
-* PyCharm
+* PyCharm ![22](https://user-images.githubusercontent.com/73976733/104122372-55ae3700-534d-11eb-8de4-492973fca972.jpeg)
 
 * or some other IDE (recommended)
 
@@ -59,16 +59,16 @@ Clone that project to your workspace directory
 
    * connected_component(self, id1: int) -> list: Finds the Strongly Connected Component(SCC) that node id1 is a part of.
    * shortest_path(self, id1: int, id2: int) -> (float, list): Returns the shortest path from node id1 to node id2 using Dijkstra's Algorithm
-   # Example to shortest path :
+   # Example to shortest path ::pushpin:
    ![multi-stage-graph](https://user-images.githubusercontent.com/73976733/102022330-c124d900-3d8e-11eb-84ae-4ad241999919.jpg)
    
-   # Diagram PLTUML :
+   # Diagram PLTUML ::chart_with_downwards_trend:
    
    <img width="684" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104119230-b8e09f00-5336-11eb-880d-bed1c8eb1f2f.png">
 <img width="643" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104119233-bd0cbc80-5336-11eb-9342-df865528d261.png">
 <img width="212" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104119236-be3de980-5336-11eb-9044-5b745a197dcb.png">
 
-# Results Compare Times ::bar_chart::alarm_clock:
+# Results Compare Times ::bar_chart::hourglass:
 <img width="1127" alt="Screen Shot 2021-01-10 at 9 13 43" src="https://user-images.githubusercontent.com/73976733/104119269-efb6b500-5336-11eb-8cfb-2ed1c49a4deb.png">
 
 # Engoy!
