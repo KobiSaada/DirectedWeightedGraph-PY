@@ -57,22 +57,26 @@ class GraphAlgo(GraphAlgoInterface):
         return self.graphAlgo
 
     def open_graph(self, file_name):
-        graph_json = DiGraph()
-        with open(file_name, 'r') as json_file:
-            json_data = json.load(json_file)
-            for i in json_data['Nodes']:
-                if 'pos' in i.keys():
-                    s = i['pos'].split(',')
-                    position = (s[0], s[1])
-                    graph_json.add_node(i['id'], position)
-                    for j in json_data['Edges']:
-                        graph_json.add_edge(j['src'], j['dest'], j['w'])
-                        self.graphAlgo = graph_json
-                else:
-                    graph_json.add_node(i['id'])
-                    for j in json_data['Edges']:
-                        graph_json.add_edge(j['src'], j['dest'], j['w'])
-                        self.graphAlgo = graph_json
+          Mygraph = DiGraph()
+
+        try:
+            with open(file_name, "r") as json_file:
+                json_graph = json.load(json_file)
+                for i in json_graph['Nodes']:
+                    if 'pos' in i:
+                        strP = i["pos"].split(",")
+                        x = float(strP[0])
+                        y = float(strP[1])
+                        Mygraph .add_node(i["id"], (x, y))
+                    else:
+                        Mygraph .add_node(i["id"])
+                for j in json_graph["Edges"]:
+                    Mygraph .add_edge(j["src"], j["dest"], j["w"])
+        except IOError as e:
+            print(e)
+            return False
+        self.graphAlgo = Mygraph
+        return True
 
     """
               Loads a graph from a json file.
