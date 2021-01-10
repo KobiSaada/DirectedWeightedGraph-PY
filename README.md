@@ -19,11 +19,7 @@ In this task we were required to implement a deliberate and weighted graph with 
 # Getting Started ::zap:
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-# Prerequisites:!![22](https://user-images.githubusercontent.com/73976733/104122372-55ae3700-534d-11eb-8de4-492973fca972.jpeg)
-
-
-
-* JDK-15.0.1
+# Prerequisites:![22](https://user-images.githubusercontent.com/73976733/104122372-55ae3700-534d-11eb-8de4-492973fca972.jpeg)
 
 * PyCharm
 
