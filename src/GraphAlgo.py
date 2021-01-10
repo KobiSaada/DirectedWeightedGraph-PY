@@ -22,22 +22,25 @@ class GraphAlgo1():
 
 
 def diagram_compare():
-    names = ['java', 'python', 'networkx']
-    colors = mcolors.BASE_COLORS
-    times1 = [0.0008211099700927734, 0.0007131099700927734, 0.00012493133544921875]
-    times2 = [0.000156, 0.000114, 4.029273986816406e-05]
-    times3 = [0.01654395481372, 0.01556396484375, 1.0967254638671875e-05]
-    # plt.plot(9 , 9 , 9 , 9)
-    plt.figure(figsize=(15, 7))
-    plt.subplot(131, title='Connected component(1)')
-    plt.bar(names, times1, color=colors)
-    plt.subplot(132, title='Shortest_path(2,5)')
-    plt.bar(names, times2, color=colors)
-    plt.subplot(133, title='Connected components')
-    plt.bar(names, times3, color=colors)
-    plt.suptitle('Running time Tests - DirectedWeightedGraph(File Graph ; data/G_10_80_0.json)\nRun on 2.7 GHz Dual-Core Intel Core i5\n')
+    with plt.style.context('ggplot'):
+        names = ['java', 'python', 'networkx']
+        colors = mcolors.BASE_COLORS
+        times1 = [0.0008211099700927734, 0.0007131099700927734, 0.00012493133544921875]
+        times2 = [0.000156, 0.000114, 4.029273986816406e-05]
+        times3 = [0.01654395481372, 0.01556396484375, 1.0967254638671875e-05]
+        # plt.plot(9 , 9 , 9 , 9)
+        plt.figure(figsize=(15, 7))
+        plt.subplot(131, title='Connected component(1)')
+        plt.bar(names, times1, color=colors)
+        plt.subplot(132, title='Shortest_path(2,5)')
+        plt.bar(names, times2, color=colors)
+        plt.subplot(133, title='Connected components')
+        plt.bar(names, times3, color=colors)
+        plt.suptitle(
+            'Running time Tests - DirectedWeightedGraph(File Graph ; data/G_10_80_0.json)\nRun on 2.7 GHz Dual-Core Intel '
+            'Core i5\n')
 
-    plt.show()
+        plt.show()
 
 
 class GraphAlgo(GraphAlgoInterface):
@@ -57,7 +60,7 @@ class GraphAlgo(GraphAlgoInterface):
         return self.graphAlgo
 
     def open_graph(self, file_name):
-          Mygraph = DiGraph()
+        Mygraph = DiGraph()
 
         try:
             with open(file_name, "r") as json_file:
@@ -131,10 +134,10 @@ class GraphAlgo(GraphAlgoInterface):
 
     def plot_graph(self) -> None:
         self.runGui()
-        diagram_compare()
+       # diagram_compare()
 
     def runGui(self):
-        plt.figure(num=55, figsize=(8,6), dpi=80, facecolor='tan')
+        plt.figure(num=55, figsize=(8, 6), dpi=80, facecolor='tan')
 
         compList = self.connected_components()
         with plt.style.context('Solarize_Light2'):
@@ -162,10 +165,12 @@ class GraphAlgo(GraphAlgoInterface):
                   width=0.00001, fc='red', ec='black', zorder=1.1)
 
     def draw_node(self, id1: int) -> None:
+
         x1, y1 = self.graphAlgo.get_vertex(id1).getPosition()
         plt.scatter([x1], [y1])
 
     def component_go(self, idList) -> None:
+
         list_x = []
         list_y = []
         self.counterComp += 1
@@ -182,6 +187,7 @@ class GraphAlgo(GraphAlgoInterface):
             list_x.append(float(x))
             list_y.append(float(y))
         plt.scatter(list_x, list_y, s=120, edgecolors='black', label=label1)
+
         plt.legend()
 
     def draw_edges(self, nodeList: list) -> None:
@@ -208,7 +214,6 @@ class GraphAlgo(GraphAlgoInterface):
             if res not in result:
                 result.append(res)
         return result
-
 
     def get_vertices1(self):
         """Returns a list of id's representing the vertices in the graph, in ascending order"""
