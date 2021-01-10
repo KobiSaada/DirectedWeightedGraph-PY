@@ -40,6 +40,8 @@ class DiGraph(ABC, GraphInterface):
                   """
 
     def add_edge(self, id1: int, id2: int, weight: float) -> bool:
+        if id2 in self.get_vertex(id1).Ni_node_out:
+            return False
         if weight <= 0 or id1 == id2:
             return False
         boolAdd = False
@@ -113,8 +115,8 @@ class DiGraph(ABC, GraphInterface):
         if node_id1 not in self.get_vertex(node_id2).Ni_node_in or node_id2 not in self.get_vertex(
                 node_id1).Ni_node_out:
             return boolRemove
-            self.get_vertex(node_id2).deleteNi_in(node_id1)
-            self.get_vertex(node_id1).deleteNi_out(node_id2)
+        self.get_vertex(node_id2).deleteNi_in(node_id1)
+        self.get_vertex(node_id1).deleteNi_out(node_id2)
 
         boolRemove = True
 
@@ -145,7 +147,7 @@ class DiGraph(ABC, GraphInterface):
 
     def all_out_edges_of_node(self, id1: int) -> dict:
         if self.get_vertex(id1) is not None:
-         return self.get_vertex(id1).Ni_node_out
+            return self.get_vertex(id1).Ni_node_out
 
     """
          Returns the number of vertices in this graph
@@ -162,7 +164,7 @@ class DiGraph(ABC, GraphInterface):
           Note: if the node id does not exists the function will do nothing
           """
 
-     def remove_node(self, node_id: int) -> bool:
+    def remove_node(self, node_id: int) -> bool:
         bool1 = False
         if node_id not in self.Graph_DW:
             return bool1
