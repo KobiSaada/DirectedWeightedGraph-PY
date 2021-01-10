@@ -95,6 +95,12 @@ Clone that project to your workspace directory
 # Results Compare Times ::bar_chart::hourglass:
 <img width="1127" alt="Screen Shot 2021-01-10 at 9 13 43" src="https://user-images.githubusercontent.com/73976733/104119269-efb6b500-5336-11eb-8cfb-2ed1c49a4deb.png">
 
+# External Info : 
+* https://matplotlib.org/3.1.1/gallery/style_sheets/dark_background.html
+* https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+* https://en.wikipedia.org/wiki/Strongly_connected_component
+
+
 # Enjoy!:smile:
 # Authors :
 # KOBI SAADA & TAMIR KAlIAUH :v:
