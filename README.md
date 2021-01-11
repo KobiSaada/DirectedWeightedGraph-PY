@@ -107,9 +107,10 @@ Clone that project to your workspace directory
    ![multi-stage-graph](https://user-images.githubusercontent.com/73976733/102022330-c124d900-3d8e-11eb-84ae-4ad241999919.jpg)
    
    # Diagram PLTUML ::chart_with_downwards_trend:
-<img width="684" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104139341-7f01ae00-53b3-11eb-960d-fd7cd7a79c6f.png">
-<img width="643" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104139345-832dcb80-53b3-11eb-91c8-2e42b7ded46d.png">
-<img width="212" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104139346-83c66200-53b3-11eb-95df-9551c8bb5599.png">
+<img width="342" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104139391-d30c9280-53b3-11eb-825f-3d7625f04daa.png">
+<img width="322" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104139394-d6078300-53b3-11eb-943f-5351da340b12.png">
+<img width="106" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104139395-d6a01980-53b3-11eb-928b-cb7e505c6784.png">
+
 
 
 
