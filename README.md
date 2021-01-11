@@ -99,7 +99,7 @@ Clone that project to your workspace directory
    # Example to connected_components:
    ![Scc](https://user-images.githubusercontent.com/73976733/104119114-27712d00-5336-11eb-90c4-a4b71b392f6d.png)
     
-      OUTPUT->THE COMPONENTS IN THIS PIQTURE IS ARE :[[a,b,e],[f,g],[c,d,h];
+      OUTPUT->THE COMPONENTS IN THIS PIQTURE IS ARE :[[a,b,e],[f,g],[c,d,h]];
 
  *   **connected_component(self, id1: int)** -> list: Finds the Strongly Connected Component(SCC) that node id1 is a part of.
  *   **shortest_path(self, id1: int, id2: int)** -> (float, list): Returns the shortest path from node id1 to node id2 using Dijkstra's Algorithm
