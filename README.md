@@ -72,9 +72,25 @@ Clone that project to your workspace directory
  *  **add_in_Ni(self, node_out: int, weight: float)**->  by given int id1 and float weight add to neighbor in of this node a ni and weight between them
  *  **getPosition(self)**->return the position of node
   
-   # DiGraph :
+   # DiGraph Class :
+   * **__init__(self)**->Init this graph.
+   * **get_vertex(self,n)**->get a Node if the node exist in the graph else return NONE.
+   * **add_edge(self, id1: int, id2: int, weight: float)**->Adds an edge to the graph return: True if the edge was added successfully, False o.w.
+   * **get_all_v(self)**->return a dictionary of all the nodes in the Graph, each node is represented using a pair  (key, node_data).
+   * **e_size(self)**-> Returns the number of edges in this graph.
+   * **add_node(self, node_id: int, pos: tuple = None)**->Adds a node to the graph return: True if the node was added successfully, False o.w.
+   * **remove_edge(self, node_id1: int, node_id2: int)**->Removes an edge from the graph return: True if the edge was removed successfully, False o.w.
+   * **get_mc(self)**->Returns the current version of this graph,on every change in the graph state - the MC should be increased return: The current version of this graph.
+   * **all_in_edges_of_node(self, id1: int)**->return a dictionary of all the nodes connected to (into) node_id,each node is represented using a pair (key, weight)
+   * **all_out_edges_of_node(self, id1: int)**->return a dictionary of all the nodes connected from node_id,each node is represented using a pair (key,
+   weight).
+   * **v_size(self)**->Returns the number of vertices in this graph.
+   * **remove_node(self, node_id: int)**->Removes a node from the graph return: True if the node was removed successfully, False o.w.
+   * **get_vertices(self)**->Returns a dict of nodes representing the vertices in the graph, in dict order.
+        
+          
    
-   # GraphAlgo :
+   # GraphAlgo Class :
  *  **get_graph(self)**->return this graph
  *  **load_from_json(self,file:str)**-> Loads a graph from a json file.
  *  **sava_to_json**-> save a graph to a json file.
