@@ -107,8 +107,10 @@ Clone that project to your workspace directory
    ![multi-stage-graph](https://user-images.githubusercontent.com/73976733/102022330-c124d900-3d8e-11eb-84ae-4ad241999919.jpg)
    
    # Diagram PLTUML ::chart_with_downwards_trend:
-   
-   <img width="684" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104119230-b8e09f00-5336-11eb-880d-bed1c8eb1f2f.png"><img width="643" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104119233-bd0cbc80-5336-11eb-9342-df865528d261.png"><img width="212" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104119236-be3de980-5336-11eb-9044-5b745a197dcb.png">
+   <img width="342" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104139305-4366e400-53b3-11eb-9dd3-242c67fc79f2.png">
+<img width="322" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104139307-45c93e00-53b3-11eb-924a-7f55c3bc0977.png">
+<img width="106" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104139309-46fa6b00-53b3-11eb-8ef5-7578eb90f8c5.png">
+
 
 
 # Results Compare Times ::bar_chart::hourglass:
