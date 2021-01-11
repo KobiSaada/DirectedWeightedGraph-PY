@@ -26,7 +26,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 **library:**
 
-<img width="39" alt="Screen Shot 2021-01-12 at 1 08 27" src="https://user-images.githubusercontent.com/73976733/104248793-dc106900-5472-11eb-811a-5a4107727d12.png">
+<img width="496" alt="Screen Shot 2021-01-12 at 1 08 27" src="https://user-images.githubusercontent.com/73976733/104248904-0e21cb00-5473-11eb-903e-0e0685c53dca.png">
+
 
 
 
