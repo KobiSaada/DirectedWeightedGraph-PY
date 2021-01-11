@@ -23,6 +23,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 * or some other IDE 
 
+**library:**
+* MatPlotlib <img width="30" alt="Screen Shot 2021-01-12 at 1 06 19" src="https://user-images.githubusercontent.com/73976733/104248640-8e93fc00-5472-11eb-98b1-25d94dcb1e1e.png">
+
+
 # Installing ::wrench:
 Clone that project to your workspace directory
 
@@ -88,7 +92,8 @@ Clone that project to your workspace directory
  *  **get_graph(self)**->return this graph
  *  **load_from_json(self,file:str)**-> Loads a graph from a json file.
  *  **sava_to_json**-> save a graph to a json file.
- *  **plot_graph(self)**->  Plots the graph If the nodes have a position, the nodes will be placed there Otherwise, they will be placed in a random but elegant manner.
+ *  **plot_graph(self)**->  Plots the graph If the nodes have a position, the nodes will be placed there Otherwise, they will be placed in a random but elegant manner using matplot lib libarary.
+ * https://matplotlib.org/users/pyplot_tutorial.html
  *   **connected_components(self)**->  Finds all the Strongly Connected Component(SCC) in the graph.
    # Example for connected_components:
    ![Scc](https://user-images.githubusercontent.com/73976733/104119114-27712d00-5336-11eb-90c4-a4b71b392f6d.png)
