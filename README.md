@@ -10,14 +10,7 @@
 # General Info ::books:
 
 **In this task we were required to implement a deliberate and weighted graph with all the algorithms similar to the previous task only in the Python programming language and in addition we were required to compare execution times between our results and the network x and java library and also implemented a graphical representation of the graph using maplotlib library in Python Have fun!**.
-
 <img width="450" alt="Screen Shot 2021-01-10 at 22 26 44 (1)" src="https://user-images.githubusercontent.com/73976733/104136369-4905ff00-539e-11eb-87bf-a4af2e0b5976.png"><img width="450" alt="Screen Shot 2021-01-10 at 23 44 45 (2) (1)" src="https://user-images.githubusercontent.com/73976733/104136411-92eee500-539e-11eb-9b7c-260ff63beb37.png">
-
-
-
-
-
-
 
 
 # Getting Started ::zap:
@@ -110,7 +103,6 @@ Clone that project to your workspace directory
 <img width="342" alt="Screen Shot 2021-01-10 at 9 20 43" src="https://user-images.githubusercontent.com/73976733/104139391-d30c9280-53b3-11eb-825f-3d7625f04daa.png">
 <img width="322" alt="Screen Shot 2021-01-10 at 9 21 32" src="https://user-images.githubusercontent.com/73976733/104139394-d6078300-53b3-11eb-943f-5351da340b12.png">
 <img width="106" alt="Screen Shot 2021-01-10 at 9 21 59" src="https://user-images.githubusercontent.com/73976733/104139395-d6a01980-53b3-11eb-928b-cb7e505c6784.png">
-
 
 
 
