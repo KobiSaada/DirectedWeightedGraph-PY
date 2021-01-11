@@ -115,7 +115,7 @@ Clone that project to your workspace directory
 
 
 # Results Compare Times ::bar_chart::hourglass:
-<img width="900" alt="Screen Shot 2021-01-11 at 0 49 08" src="https://user-images.githubusercontent.com/73976733/104137634-072d8680-53a7-11eb-860e-f5c6e803e971.png">
+<img width="550" alt="Screen Shot 2021-01-11 at 0 49 08 (1)" src="https://user-images.githubusercontent.com/73976733/104139455-50d09e00-53b4-11eb-98c8-7aa7ab6e227d.png">
 
 
 # External Info ::mag_right:
