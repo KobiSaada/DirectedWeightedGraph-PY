@@ -115,6 +115,7 @@ Clone that project to your workspace directory
 * https://matplotlib.org/3.1.1/gallery/style_sheets/dark_background.html
 * https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 * https://en.wikipedia.org/wiki/Strongly_connected_component
+* https://wiki.c2.com/?WeightedDirectedGraph
 
 
 # Enjoy!:smile:
