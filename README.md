@@ -96,14 +96,14 @@ Clone that project to your workspace directory
  *  **sava_to_json**-> save a graph to a json file.
  *  **plot_graph(self)**->  Plots the graph If the nodes have a position, the nodes will be placed there Otherwise, they will be placed in a random but elegant manner.
  *   **connected_components(self)**->  Finds all the Strongly Connected Component(SCC) in the graph.
-   # Example to connected_components:
+   # Example for connected_components:
    ![Scc](https://user-images.githubusercontent.com/73976733/104119114-27712d00-5336-11eb-90c4-a4b71b392f6d.png)
     
       OUTPUT->THE COMPONENTS IN THIS PIQTURE IS ARE :[[a,b,e],[f,g],[c,d,h]];
 
  *   **connected_component(self, id1: int)** -> list: Finds the Strongly Connected Component(SCC) that node id1 is a part of.
  *   **shortest_path(self, id1: int, id2: int)** -> (float, list): Returns the shortest path from node id1 to node id2 using Dijkstra's Algorithm
-   # Example to shortest path ::pushpin:
+   # Example for shortest path ::pushpin:
    ![multi-stage-graph](https://user-images.githubusercontent.com/73976733/102022330-c124d900-3d8e-11eb-84ae-4ad241999919.jpg)
    
    # Diagram PLTUML ::chart_with_downwards_trend:
