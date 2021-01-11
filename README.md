@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * PyCharm ![22](https://user-images.githubusercontent.com/73976733/104122372-55ae3700-534d-11eb-8de4-492973fca972.jpeg)
 
-* or some other IDE (recommended)
+* or some other IDE 
 
 # Installing ::wrench:
 Clone that project to your workspace directory
@@ -36,7 +36,7 @@ Clone that project to your workspace directory
         
   Open your IDE and make sure you see the project 'DirectedWeightedGraph-PY'
   
- # Example of run test n check(0) ::pencil:
+ # Example of run test in check(0) ::pencil:
 
  after you clone this project there is a class call Ex3 main run it in check(0):
  
@@ -123,7 +123,7 @@ Clone that project to your workspace directory
 
 # Enjoy!:smile:
 # Authors :
-# KOBI SAADA & TAMIR KAlIAUH :v:
+#** KOBI SAADA & TAMIR KAlIAUH**# :v:
 
 
 
