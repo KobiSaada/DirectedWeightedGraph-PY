@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
  **library for ploting the graph:**
 
-  <img width="150" alt="Screen Shot 2021-01-12 at 1 08 27 (1)" src="https://user-images.githubusercontent.com/73976733/104248993-3f020000-5473-11eb-83de-   dcfd2c80e4af.png">
+<img width="150" alt="Screen Shot 2021-01-12 at 1 08 27 (1)" src="https://user-images.githubusercontent.com/73976733/104248993-3f020000-5473-11eb-83de-dcfd2c80e4af.png">
 
 # Installing ::wrench:
 Clone that project to your workspace directory
