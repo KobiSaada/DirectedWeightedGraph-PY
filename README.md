@@ -31,7 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 # Installing ::wrench:
 Clone that project to your workspace directory
 
-        git clone https://github.com/KobiSaada/DirectedWeightedGraph-PY
+        git clone https://github.com/KobiSaada/DirectedWeightedGraph-PY.git
         
   Open your IDE and make sure you see the project 'DirectedWeightedGraph-PY'
   
